@@ -17,7 +17,7 @@ body {
 
 nav {
   text-transform: uppercase;
-  background-color: #e0e68e;
+  background-color: #5d8d47;
 }
 
 nav a, nav i {
@@ -33,11 +33,8 @@ nav i {
 nav .navbar-brand {
   width: 120px;
   height: 110px;
-  background-image: url("/img/logo.png");
-}
-
-nav .active {
-  color: #151e3f;
+  background-image: url("../img/logo.png");
+  z-1ndex: 1;
 }
 
 nav .dropdown-menu {
