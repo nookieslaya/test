@@ -1,4 +1,8 @@
 // skrypt naprawiający nawigację (zamyka się po kliknięciu w cokolwiek na mobilce)
+
+
+
+
 $(document).click(function (event) {
     var clickover = $(event.target);
     var _opened = $(".navbar-collapse").hasClass("show");
@@ -7,5 +11,9 @@ $(document).click(function (event) {
     }
 });
 
+// MDB Lightbox Init
+$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+});
 
-// slickJS
