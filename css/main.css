@@ -18,6 +18,7 @@ body {
 nav {
   text-transform: uppercase;
   background-color: #5d8d47;
+  left: 200px;
 }
 
 nav a, nav i {
@@ -41,18 +42,12 @@ nav .dropdown-menu {
   background-color: white;
 }
 
-nav .dropdown-menu:hover {
-  color: white;
+nav .dropdown-menu a:hover {
+  color: #2d4bb9;
 }
 
-nav .dropdown-menu:hover a {
-  color: #4e3de78e;
-  -webkit-transition: .3s;
-  transition: .3s;
-}
-
-nav .dropdown-menu:hover a:hover {
-  color: #151e3f;
+nav .dropdown-item {
+  font-size: 12px;
 }
 
 header {
