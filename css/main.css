@@ -17,8 +17,7 @@ body {
 
 nav {
   text-transform: uppercase;
-  background-color: #5d8d47;
-  left: 200px;
+  background-color: #59ac45;
 }
 
 nav a, nav i {
@@ -32,9 +31,11 @@ nav i {
 }
 
 nav .navbar-brand {
-  width: 120px;
-  height: 110px;
+  width: 75px;
+  height: 60px;
   background-image: url("../img/logo.png");
+  background-size: 75px 75px;
+  background-repeat: no-repeat;
   z-1ndex: 1;
 }
 
