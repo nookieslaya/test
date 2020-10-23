@@ -42,10 +42,6 @@ nav .dropdown-menu {
   background-color: white;
 }
 
-nav .dropdown-menu a:hover {
-  color: #2d4bb9;
-}
-
 nav .dropdown-item {
   font-size: 12px;
 }
