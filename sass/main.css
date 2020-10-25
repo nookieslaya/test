@@ -194,7 +194,7 @@ h2 {
 }
 
 .gallery {
-  overflow: scroll;
+  overflow-y: scroll;
   height: 400px;
   background-color: #ddd9d99a;
 }
