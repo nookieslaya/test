@@ -17,11 +17,11 @@ body {
 
 nav {
   text-transform: uppercase;
-  background-color: #59ac45;
+  background-color: #ffae78;
 }
 
 nav a, nav i {
-  color: black;
+  color: #fff;
   -webkit-transition: .3s;
   transition: .3s;
 }
@@ -225,6 +225,7 @@ h2 {
 
 .park-img .price-text {
   margin-top: 30px;
+  font-size: 20px;
 }
 
 .gallery {
@@ -233,7 +234,12 @@ h2 {
   background-color: #ddd9d99a;
 }
 
-.contact h2, .contact h3 {
+.adres p {
+  color: #4e3de7;
+  font-weight: bold;
+}
+
+.adres h3 {
   text-transform: uppercase;
   font-weight: bold;
 }
